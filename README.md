@@ -93,17 +93,16 @@ const PrathameshBachhav = {
 ---
 
 # 📊 GitHub Stats
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DurgeshShewale29&theme=github_dark" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=DurgeshShewale29&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=PrathameshBachhav2005&theme=dark&hide_border=false" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DurgeshShewale29&theme=github_dark" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DurgeshShewale29&theme=github_dark&utcOffset=5.5" />
 
 </div>
 
@@ -141,29 +140,15 @@ const PrathameshBachhav = {
 
 ## 🐍 Contribution Snake
 
-name: Generate Snake
+<div align="center">
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DurgeshShewale29/DurgeshShewale29/blob/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/DurgeshShewale29/DurgeshShewale29/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/DurgeshShewale29/DurgeshShewale29/blob/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: PrathameshBachhav2005
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</div>
 
 ---
 
