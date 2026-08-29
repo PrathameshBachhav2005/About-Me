@@ -93,14 +93,17 @@ const PrathameshBachhav = {
 ---
 
 # 📊 GitHub Stats
-
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+<img src="https://github-readme-stats.vercel.app/api?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
 
-![](https://streak-stats.demolab.com/?user=PrathameshBachhav2005&theme=dark&hide_border=false)
+<br/>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<img src="https://streak-stats.demolab.com/?user=PrathameshBachhav2005&theme=dark&hide_border=false" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrathameshBachhav2005&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 
 </div>
 
@@ -110,7 +113,7 @@ const PrathameshBachhav = {
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=PrathameshBachhav2005&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
+<img src="https://github-profile-trophy.vercel.app/?username=PrathameshBachhav2005&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" />
 
 </div>
 
@@ -130,7 +133,7 @@ const PrathameshBachhav = {
 
 <div align="center">
 
-[![Prathamesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PrathameshBachhav2005&bg_color=0D1117&color=FF6B00&line=FF6B00&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-contributor-stats.vercel.app/api?username=PrathameshBachhav2005&limit=5&theme=dark&combine_all_yearly_contributions=true" />
 
 </div>
 
@@ -138,15 +141,29 @@ const PrathameshBachhav = {
 
 ## 🐍 Contribution Snake
 
-<div align="center">
+name: Generate Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrathameshBachhav2005/PrathameshBachhav2005/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrathameshBachhav2005/PrathameshBachhav2005/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/PrathameshBachhav2005/PrathameshBachhav2005/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
-</div>
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: PrathameshBachhav2005
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 ---
 
