@@ -108,33 +108,13 @@ const PrathameshBachhav = {
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=PrathameshBachhav2005&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" />
-
-</div>
 
 ---
 
-### 🔝 Top Contributed Repo
 
-<div align="center">
-
-![](https://github-contributor-stats.vercel.app/api?username=PrathameshBachhav2005&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-</div>
 
 ---
 
-## 📈 Activity Graph
-
-<div align="center">
-
-<img src="https://github-contributor-stats.vercel.app/api?username=PrathameshBachhav2005&limit=5&theme=dark&combine_all_yearly_contributions=true" />
-
-</div>
 
 ---
 
