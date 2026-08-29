@@ -84,10 +84,10 @@ const PrathameshBachhav = {
 
 - 🥇 **TCS iON Career Edge** — AI Foundation (2026)
 - 🏅 **SunHacks Hackathon** — Sandip University (2026)
-- ☁️ **AWS Re:Cap Event** — S3, Amplify, Bedrock (PartyRock), App Studio (2025)
-- 🤖 **GenAI Powered Data Analytics Simulation** — Tata (2025)
+- ☁️ **AWS Well-Architected Foundations** (2026)
 - 🧠 **AI Tools Skill Up** — GeeksforGeeks (2025)
-- ☁️ **AWS Well-Architected Foundations** (2025)
+- 🤖 **GenAI Powered Data Analytics Simulation** — Tata (2025)
+- ☁️ **AWS Re:Cap Event** — S3, Amplify, Bedrock (PartyRock), App Studio (2025)
 - 💻 **Solved 70+ LeetCode problems** — Arrays, Strings, Matrices, Sorting
 
 ---
@@ -106,17 +106,6 @@ const PrathameshBachhav = {
 
 </div>
 
----
-
-
----
-
-
-
----
-
-
----
 
 ## 🐍 Contribution Snake
 
